@@ -11,7 +11,7 @@
 >更加适用于甲方了解资产的情况下去检测
 
 ## 为什么没有查询cname
-> 如果去查cname，部分域名解析到cdn上，导致会误报
+> 如果去查cname，部分域名解析到cdn上，导致漏过
 ![image](https://user-images.githubusercontent.com/50605146/112817568-2ccc5100-90b5-11eb-977c-bdd060fffcb1.png)
 
 ## 误报

@@ -26,7 +26,7 @@ def checkvuln():
                 fingerprint_lists = json_dict['response'][0]  # 存储指纹信息
                 # 过滤默认404页面导致误报
                 if fingerprint_lists in url_response_text[1] and '<h1>404 Not Found</h1><' not in  url_response_text[1]:
-                    print("[Takerover vuln][{}]:{}".format(url_response_text[0], site))
+                    print("[Takerover vuln][{}]:{},特征:{}".format(url_response_text[0], site, fingerprint_lists))
                 # fingercname_lists = json_dict['cname']  # 存储cname信息
         except:
             pass

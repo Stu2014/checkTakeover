@@ -72,4 +72,3 @@ def scan(files):
 if __name__ == '__main__':
     filename = sys.argv[1]
     scan(filename)
-    # checkvuln('http://test.hbpic5.com.s3.cn-north-1.amazonaws.com.cn/')
